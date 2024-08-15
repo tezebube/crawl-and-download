@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/pdf_downloader.py",
+            "console": "integratedTerminal",
+            "args": [
+                // "https://www.sans.org",
+                // "--extension=pdf",
+                // "--accept-url=https://www.sans.org/"
+
+                // "https://www.sans.org",
+                // "--download-prefix=https://sansorg.egnyte.com/dl/",
+                // "--accept-url=https://www.sans.org/"
+
+                // "https://packetstormsecurity.com ",
+                // "--extension=pdf",
+
+                // "https://packetstormsecurity.com",
+                // "--extension=pdf",
+                // "--download-prefix=https://dl.packetstormsecurity.net/",
+
+                "https://dspace.mit.edu",
+                "--extension=pdf",
+                "--num-threads=1"
+
+                // "https://dspace.mit.edu/handle/1721.1/7813",
+                // "--extension=pdf",
+                // "--extension-suffix=?sequence=1&isAllowed=y",
+                // "--num-threads=1"      
+                
+                // "https://shostack.org/resources/threat-modeling",
+                // "--extension=html",
+                // "--num-threads=1"
+            ]
+        }
+    ]
+}
